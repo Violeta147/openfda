@@ -16,7 +16,7 @@ class testHTTPRequestHandler(http.server.BaseHTTPRequestHandler):
         self.send_header('Content-type','text/html')
         self.end_headers()
 
-        with open ("search.html") as file_search:
+        with open ("openfda-10drugs.html") as file_search:
             message = file_search.read()
             self.wfile.write(bytes(message, "utf8"))
             return
