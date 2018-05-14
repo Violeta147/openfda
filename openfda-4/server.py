@@ -138,5 +138,3 @@ except KeyboardInterrupt:
     pass
 
 httpd.server_close()
-
-# https://github.com/joshmaker/simple-python-webserver/blob/master/server.py>
